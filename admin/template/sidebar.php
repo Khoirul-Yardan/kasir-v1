@@ -74,15 +74,14 @@ $password_sidebar = $stmt->fetchColumn();
             <i class="fas fa-fw fa-cogs"></i>
             <span>Pengaturan Toko</span></a>
     </li>
+
     <hr class="sidebar-divider">
     <li class="nav-item active">
         <a class="nav-link" href="../index.php">
             <i class="fas fa-fw fa-home"></i>
             <span>Home</span></a>
     </li>
-    <!-- Divider -->
-    <hr class="sidebar-divider d-none d-md-block">
-
+    <hr class="sidebar-divider">
     <!-- Sidebar Toggler (Sidebar) -->
     <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>

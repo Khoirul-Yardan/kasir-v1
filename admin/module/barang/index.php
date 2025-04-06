@@ -32,15 +32,13 @@ if($r > 0){
     echo "
     <div class='alert alert-warning'>
         <span class='glyphicon glyphicon-info-sign'></span> Ada <span style='color:red'>$r</span> barang yang Stok tersisa sudah kurang dari 3 items. silahkan ambil di gudang !!
-        <span class='pull-right'><a href='index.php?page=barang&stok_barang=yes'>Cek Barang <i class='fa fa-angle-double-right'></i></a></span>
+       
     </div>
     ";    
 }
 ?>
 
 <!-- Trigger the modal with a button -->
-<a href="index.php?page=barang&stok=yes" class="btn btn-warning btn-md mr-2">
-    <i class="fa fa-list"></i> Sortir Stok Kurang</a>
 <a href="index.php?page=barang" class="btn btn-success btn-md">
     <i class="fa fa-refresh"></i> Refresh Data</a>
 <a href="index.php?page=barang/gudang" class="btn btn-info btn-md mr-2">

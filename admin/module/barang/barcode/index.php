@@ -1,7 +1,7 @@
 <?php
 session_start();
 require 'config.php'; // Pastikan koneksi ke database benar
-require 'vendor/autoload.php'; // Pastikan sudah menginstal library
+require '../vendor/autoload.php'; // Pastikan sudah menginstal library
 
 use Picqer\Barcode\BarcodeGeneratorPNG;
 
